@@ -1,0 +1,114 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+div#topbar {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  text-align: left;
+  background-color: #ff7f27;
+  border-bottom: 1px solid #ff4400;
+  height: 50px;
+}
+
+div#topbarImgContainer {
+  width: 50%;
+  //margin: auto;
+  max-height: 100%;
+  float: left;
+}
+
+div#topbarMenuContainer {
+  width: 50%;
+  max-height: 100%;
+  float: left;
+}
+
+.topbarElement {
+  float: left;
+  width: 20%;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-family: Lucida Sans;
+  cursor: pointer;
+}
+
+.topbarElement:hover {
+  background-color: #ff9f27;
+}
+
+.topbarImages {
+  float: left;
+  //max-width: 70%;
+  max-height: 50px;
+}
+
+div#container {
+  width: 100%;
+  margin: auto;
+  margin-top: 8%;
+  //background-color: blue;
+}
+
+div#timerTab {
+  float: left;
+  width: 75%;
+  border-right: 1px solid #CCC;
+  //background-color: violet;
+}
+
+div#articlesTab {
+  float: left;
+  width: 23%;
+}
+
+div#articleContainer {
+  width: 95%;
+  margin: auto;
+}
+
+.article {
+  width: 80%;
+  text-align: left;
+  font-size: 12px;
+  font-family: Lucida Sans;
+  cursor: pointer;
+  border-bottom: 1px solid #CCC;
+}
+
+.article:hover {
+  color: blue;
+}
+
+div#singlePlayer {
+  width: 50%;
+  height: 40px;
+  margin: auto;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 18px;
+  line-height: 40px;
+  font-family: Lucida Sans;
+  background-color: #0066cc;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+div#multiPlayer {
+  width: 40%;
+  height: 40px;
+  margin: auto;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 16px;
+  line-height: 40px;
+  font-family: Lucida Sans;
+  background-color: #0099cc;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
