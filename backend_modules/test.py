@@ -1,0 +1,3 @@
+import cubeHelper
+
+cubeHelper.solutionGenerator()
